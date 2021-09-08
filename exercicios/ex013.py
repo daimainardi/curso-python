@@ -1,2 +1,7 @@
-salario = float(input('Qual é o seu salário atual? '))
-print('Seu novo salário será {:.2f}'.format(salario*1.15))
+#salario = float(input('Qual é o seu salário atual? R$'))
+#novo = salario + (salario * 15 / 100)
+#print('Seu novo salário será R${:.2f}'.format(novo))
+
+
+salario = float(input('Qual é o seu salário atual? R$'))
+print('Seu novo salário será R${:.2f}'.format(salario*1.15))

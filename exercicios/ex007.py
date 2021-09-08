@@ -8,5 +8,6 @@ elif 4 <= m < 7:
     resultado = 'Recuperação'
 else:
     resultado = 'Reprovado'
-print('Como as suas notas foram {} e {}, sua média final ficou {:.1f}\nResultado: {}'.format(p1, p2, m, resultado))
+print('Como as suas notas foram {:.1f} e {:.1f}, sua média final ficou {:.1f}\nResultado: {}'
+      .format(p1, p2, m, resultado))
 
